@@ -10,3 +10,15 @@ Se crea antes del primer commit para que los archivos no deseados no se agregen 
 #¿Cómo configuraría el archivo .gitignore?
 Se crea un archivo de tipo .gitignore y se agrega el nombre junto con su extension, por ejemplo:
 en el archivo archivo.gitignore se añade una linea con el nombre completo del archivo a ignorar.
+
+#¿A qué se debe?
+Se debe a que la direccion de memoria que guarda el puntero es la direccion de memoria de la variable por ello son los mismos valores.
+
+#¿Qué obtiene en el punto 4?
+Se optiene la direccion de memoria del puntero mismo.
+
+#¿Es igual a los anteriores? 
+No.
+
+#¿Por qué?
+No es igual ya que el puntero tiene su propio espacio en la memoria que almacena una direccion a la que se quiere apuntar.
