@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void devolvercuadrado(int n);
+void mostrarvariable(int n);
 
 int main()
 {
     int n = 4;
-    devolvercuadrado(n);
+    mostrarvariable(n);
     return 0;
 }
 
-void devolvercuadrado(int n)
+void mostrarvariable(int n)
 {
-    int ncuadrado= n*n;
-    printf("El cuadrado de %d es %d",n,ncuadrado);
+    printf("La direccion de la variable: %p\nContenido de la variable: %d",&n,n);
 }
