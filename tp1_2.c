@@ -1,16 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void mostrarvariable(int n);
+void invertir(int a, int b);
 
 int main()
 {
-    int n = 4;
-    mostrarvariable(n);
+    int a = 4,b = 8;
+    invertir(a,b);
     return 0;
 }
 
-void mostrarvariable(int n)
+void invertir(int a, int b)
 {
-    printf("La direccion de la variable: %p\nContenido de la variable: %d",&n,n);
+    printf("Numero A: %d\nNumero B: %d",a,b);
+    int aux = b;
+    b=a;
+    a=aux;
+    printf("\nInvertir...\nNumero A: %d\nNumero B: %d",a,b);
 }
