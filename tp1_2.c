@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void invertir(int a, int b);
+void orden(int a, int b);
 
 int main()
 {
     int a = 8,b = 8;
-    invertir(a,b);
+    orden(a,b);
     return 0;
 }
 
-void invertir(int a, int b)
+void orden(int a, int b)
 {
     int menor=0,mayor=0;
     if (a<b)
